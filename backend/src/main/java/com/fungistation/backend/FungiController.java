@@ -10,8 +10,8 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/fungi")
-// フロントエンド（Viteのデフォルト: 5174）からのアクセスを許可するCORS設定
-@CrossOrigin(origins = "http://localhost:5174")
+// フロントエンド（Viteのデフォルト: 5173）からのアクセスを許可するCORS設定
+@CrossOrigin(origins = "http://localhost:5173")
 public class FungiController {
 
     @GetMapping
