@@ -20,6 +20,6 @@ public class FungiController {
         return Arrays.asList(
                 Map.of("id", "1", "name", "ウスキモルセラ（アミガサタケ）", "category", "子嚢菌門", "price", "1200"),
                 Map.of("id", "2", "name", "タマツノホコリ（粘菌）", "category", "変形菌", "price", "800"),
-                Map.of("id", "3", "name", "ヒポミケス（菌物寄生菌）", "category", "子嚢菌門", "price", "1500"));
+                Map.of("id", "3", "name", "ヒポミケス（菌寄生菌）", "category", "子嚢菌門", "price", "1500"));
     }
 }
